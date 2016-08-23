@@ -7,11 +7,13 @@ var serie = 1...100
 for i in serie {
     if i % 5 == 0{
         print ( "\(i)#Bingo" )
-    }else if i % 2 == 0 {
+    }
+    if i % 2 == 0 {
         print ( "\(i)#Número PAR" )
-    }else if i % 3 == 1 {
+    }else {
         print ( "\(i)#Número IMPAR" )
-    }else if ( i >= 30 && i <= 40 ){
+    }
+    if ( i >= 30 && i <= 40 ){
         print ( "\(i)#Viva Swift" )
     }
     
